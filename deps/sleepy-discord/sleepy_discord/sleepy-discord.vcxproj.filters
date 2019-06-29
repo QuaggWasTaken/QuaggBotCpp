@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\asignments_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\attachment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\cpr_session.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\default_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\discord_object_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\embed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\endpoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\gateway.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\http.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\invite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\json_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\json.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\permissions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\sd_error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\uwebsockets_websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\voice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\webhook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\websocketpp_websocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\sleepy_discord\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55557A67-DC99-3F92-B390-22E10FD6DEE9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

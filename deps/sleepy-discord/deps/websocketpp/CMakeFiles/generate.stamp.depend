@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.14/Modules/BasicConfigVersion-ExactVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/websocketpp/CMakeLists.txt
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/websocketpp/cmake/CMakeHelpers.cmake
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/websocketpp/websocketpp-config.cmake.in

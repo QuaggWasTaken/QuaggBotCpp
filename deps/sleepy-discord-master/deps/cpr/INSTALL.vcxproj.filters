@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\CMakeFiles\8a9036ebf82849b5a8a959e4d207c902\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5C5C4C1E-D1FC-3718-B8E8-651BA6AE2AC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

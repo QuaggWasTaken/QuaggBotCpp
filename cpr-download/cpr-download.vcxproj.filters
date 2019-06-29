@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-skip-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\6adac25ce3af0a7f6a5396f3e9cb8abe\cpr-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\9937863378b033f0b2440ba8ce881fe3\cpr-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\cpr-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BD486A02-590E-3DAD-A80D-AF253E3AC04C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

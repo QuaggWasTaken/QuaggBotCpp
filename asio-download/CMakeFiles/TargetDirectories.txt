@@ -1,0 +1,3 @@
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/asio-download.dir
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/ZERO_CHECK.dir

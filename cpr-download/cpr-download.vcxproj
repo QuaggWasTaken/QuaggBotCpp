@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34C5557A-FBF8-37BA-885E-D20D64C22C3D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cpr-download</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/cpr"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Creating directories for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/cpr"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Creating directories for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/cpr"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord/deps/cpr"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing download step (git clone) for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp/cpr-download-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\cpr-download-gitinfo.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Performing download step (git clone) for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp/cpr-download-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\cpr-download-gitinfo.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Performing download step (git clone) for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp/cpr-download-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\cpr-download-gitinfo.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing download step (git clone) for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/tmp/cpr-download-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\cpr-download-gitinfo.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-skip-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Skipping update step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-skip-update.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Skipping update step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-skip-update.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Skipping update step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-skip-update.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Skipping update step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-skip-update.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-patch.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No patch step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-patch.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No patch step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-patch.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-patch.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-configure.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No configure step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-configure.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No configure step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-configure.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-configure.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-skip-update;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No build step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-build.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No build step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-build.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No build step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-build.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No build step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-build.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No install step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-install.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No install step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-install.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No install step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-install.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No install step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-install.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\a910bb38bee1b1f297ee3671da9c41de\cpr-download-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No test step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-test.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">No test step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-test.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">No test step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-test.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No test step for 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd "C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-test.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\6adac25ce3af0a7f6a5396f3e9cb8abe\cpr-download-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)/cpr-download-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/6adac25ce3af0a7f6a5396f3e9cb8abe/cpr-download-complete.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Completed 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)/cpr-download-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/6adac25ce3af0a7f6a5396f3e9cb8abe/cpr-download-complete.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Completed 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)/cpr-download-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/6adac25ce3af0a7f6a5396f3e9cb8abe/cpr-download-complete.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'cpr-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/$(Configuration)/cpr-download-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/$(Configuration)/cpr-download-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/6adac25ce3af0a7f6a5396f3e9cb8abe/cpr-download-complete.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-mkdir;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-download;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-patch;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-configure;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-build;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-install;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\src\cpr-download-stamp\$(Configuration)\cpr-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\9937863378b033f0b2440ba8ce881fe3\cpr-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/9937863378b033f0b2440ba8ce881fe3/cpr-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\cpr-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/9937863378b033f0b2440ba8ce881fe3/cpr-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\cpr-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/9937863378b033f0b2440ba8ce881fe3/cpr-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\cpr-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/9937863378b033f0b2440ba8ce881fe3/cpr-download.rule;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\$(Configuration)\cpr-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\cpr-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\RepositoryInfo.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\RepositoryInfo.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\RepositoryInfo.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\RepositoryInfo.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\3.14.3\CMakeSystem.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\cpr-download-prefix\tmp\cpr-download-cfgcmd.txt.in;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\CMakeFiles\cpr-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\cpr-download\ZERO_CHECK.vcxproj">
+      <Project>{FB543BD9-8722-3355-BE02-45CF754F4EFF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

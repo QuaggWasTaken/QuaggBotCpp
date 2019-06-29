@@ -1,0 +1,3 @@
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/websocketpp-download/CMakeFiles/websocketpp-download.dir
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/websocketpp-download/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/websocketpp-download/CMakeFiles/ZERO_CHECK.dir

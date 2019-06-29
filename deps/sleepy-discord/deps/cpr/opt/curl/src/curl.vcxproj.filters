@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\slist_wc.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_binmode.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_bname.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_dbg.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_hdr.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_prg.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_rea.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_see.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_wrt.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cfgable.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_convert.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_dirhie.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_doswin.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_easysrc.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_formparse.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_getparam.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_getpass.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_help.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_helpers.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_homedir.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_hugehelp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_libinfo.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_main.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_metalink.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_msgs.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_operate.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_operhlp.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_panykey.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_paramhlp.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_parsecfg.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_strdup.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_setopt.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_sleep.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_urlglob.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_util.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_vms.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_writeout.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_xattr.c">
+      <Filter>curl source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\lib\strtoofft.c">
+      <Filter>curlX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\lib\nonblock.c">
+      <Filter>curlX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\lib\warnless.c">
+      <Filter>curlX source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\slist_wc.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_binmode.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_bname.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_dbg.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_hdr.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_prg.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_rea.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_see.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cb_wrt.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_cfgable.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_convert.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_dirhie.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_doswin.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_easysrc.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_formparse.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_getparam.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_getpass.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_help.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_helpers.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_homedir.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_hugehelp.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_libinfo.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_main.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_metalink.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_msgs.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_operate.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_operhlp.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_panykey.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_paramhlp.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_parsecfg.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_sdecls.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_setopt.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_setup.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_sleep.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_strdup.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_urlglob.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_util.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_version.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_vms.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_writeout.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\tool_xattr.h">
+      <Filter>curl header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\CMakeFiles\ef59682fb992b1947898a33113863fe1\tool_hugehelp.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord\deps\cpr\opt\curl\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5C5C4C1E-D1FC-3718-B8E8-651BA6AE2AC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55557A67-DC99-3F92-B390-22E10FD6DEE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl header files">
+      <UniqueIdentifier>{1427B81E-5F12-313A-9614-6096CAF921CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl source files">
+      <UniqueIdentifier>{F6768B8C-A068-37A5-B4BD-1426F24A486C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curlX source files">
+      <UniqueIdentifier>{DBEBBF5B-68E6-32A2-95B2-501CC21038E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

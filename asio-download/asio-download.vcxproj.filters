@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-skip-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\056ff3163c2b5c8c595be5ae142f9762\asio-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\c7ed612f1db7393257f16aff2a1c43df\asio-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\cd87ed51d08563b1dae91c8526f369a8\asio-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\asio-download\CMakeFiles\asio-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8FF4D868-5F60-3390-8418-FC1A2DED57E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

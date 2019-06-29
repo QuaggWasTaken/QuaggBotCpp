@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/asio-download"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/cd87ed51d08563b1dae91c8526f369a8/asio-download.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/c7ed612f1db7393257f16aff2a1c43df/asio-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/asio-download/CMakeFiles/056ff3163c2b5c8c595be5ae142f9762/asio-download-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asio-download"
+		],
+		"name" : "asio-download"
+	}
+}

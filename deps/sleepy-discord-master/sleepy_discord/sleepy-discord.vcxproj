@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{70379A38-AFFE-37B8-8692-76126D4DE0CC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>sleepy-discord</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\sleepy_discord\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sleepy-discord.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">sleepy-discord</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\sleepy_discord\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sleepy-discord.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">sleepy-discord</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\sleepy_discord\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sleepy-discord.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">sleepy-discord-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NONEXISTANT_GIT_INFO;CURL_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NONEXISTANT_GIT_INFO;CURL_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NONEXISTANT_GIT_INFO;CURL_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NONEXISTANT_GIT_INFO;CURL_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NONEXISTANT_GIT_INFO;CURL_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;NONEXISTANT_GIT_INFO;CURL_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\asio\asio\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\websocketpp;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\include\sleepy_discord\IncludeNonexistent;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\deps\cpr\opt\curl\include;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\include\curl;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord-master/sleepy_discord/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/deps/sleepy-discord-master/sleepy_discord/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord-master/sleepy_discord/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\sleepy_discord\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord-master/sleepy_discord/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/deps/sleepy-discord-master/sleepy_discord/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord-master/sleepy_discord/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\sleepy_discord\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord-master/sleepy_discord/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot" "-BC:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build" --check-stamp-file "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/deps/sleepy-discord-master/sleepy_discord/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/deps/sleepy-discord-master/sleepy_discord/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\SelectLibraryConfigurations.cmake;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt;C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\sleepy_discord\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\asignments_client.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\attachment.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\channel.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\client.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\cpr_session.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\default_functions.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\discord_object_interface.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\embed.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\endpoints.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\gateway.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\http.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\invite.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\json_wrapper.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\json.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\message.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\permissions.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\sd_error.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\server.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\user.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\uwebsockets_websocket.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\voice.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\webhook.cpp" />
+    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\deps\sleepy-discord-master\sleepy_discord\websocketpp_websocket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\ZERO_CHECK.vcxproj">
+      <Project>{DBF23D66-FFF7-3AE5-9FE0-9D4C1E439D3A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\cpr\cpr.vcxproj">
+      <Project>{80AAB7C4-0AB1-3623-BA7D-DFDCE425A649}</Project>
+      <Name>cpr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\deps\sleepy-discord-master\deps\cpr\opt\curl\lib\libcurl.vcxproj">
+      <Project>{1BF73E80-3954-34CC-81C9-D7151069DD16}</Project>
+      <Name>libcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

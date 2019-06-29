@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/cpr-download"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/9937863378b033f0b2440ba8ce881fe3/cpr-download.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/6adac25ce3af0a7f6a5396f3e9cb8abe/cpr-download-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-install.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-download.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-build.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-test.rule"
+		},
+		{
+			"file" : "C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpr-download"
+		],
+		"name" : "cpr-download"
+	}
+}

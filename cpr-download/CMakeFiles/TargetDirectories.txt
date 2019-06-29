@@ -1,0 +1,3 @@
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/cpr-download.dir
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/ZERO_CHECK.dir

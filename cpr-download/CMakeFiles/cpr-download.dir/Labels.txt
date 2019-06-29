@@ -1,0 +1,14 @@
+# Target labels
+ cpr-download
+# Source files and their labels
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/cpr-download
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/9937863378b033f0b2440ba8ce881fe3/cpr-download.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/6adac25ce3af0a7f6a5396f3e9cb8abe/cpr-download-complete.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-install.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-mkdir.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-download.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-patch.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-configure.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-build.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-test.rule
+C:/Users/Sarah Faulkner/CPPProjects/QuaggBot/QuaggBot/build/cpr-download/CMakeFiles/a910bb38bee1b1f297ee3671da9c41de/cpr-download-skip-update.rule
