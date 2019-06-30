@@ -244,7 +244,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\Main.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Sarah Faulkner\CPPProjects\QuaggBot\QuaggBot\build\ZERO_CHECK.vcxproj">
