@@ -8,17 +8,11 @@
 #include <ctime>    // For time()
 #include <cstdlib>  // For srand() and rand()
 #include <math.h>
-
 #include "tinyxml2.h"
 #include <cerrno>
 #include <cstdlib>
 #include <cstring>
 #include <ctime>
-
-
-
-int gPass = 0;
-int gFail = 0;
 
 using namespace tinyxml2;
 using namespace utility;                    // Common utilities like string conversions
@@ -31,26 +25,16 @@ using namespace concurrency::streams;       // Asynchronous streams
 std::string getCommand(SleepyDiscord::Message);
 void help(SleepyDiscord::Message);
 void echo(SleepyDiscord::Message);
-void loadXML(SleepyDiscord::Message);
 void getDefine(SleepyDiscord::Message);
+void loadXML(SleepyDiscord::Message);
 void rollDice(SleepyDiscord::Message);
+void calculate(SleepyDiscord::Message);
+void dm(SleepyDiscord::Message);
 std::string mwKey;
 std::string problemWords = "test, fat";
 
 class MyClientClass : public SleepyDiscord::DiscordClient {
 public:
-
-	void NullLineEndings(char* p)
-	{
-		while (p && *p) {
-			if (*p == '\n' || *p == '\r') {
-				*p = 0;
-				return;
-			}
-			++p;
-		}
-	}
-
 	using SleepyDiscord::DiscordClient::DiscordClient;
 
 	void onMessage(SleepyDiscord::Message message) override {
@@ -189,6 +173,7 @@ public:
 		getDefine(message);
 		return;
 	}
+
 	void rollDice(SleepyDiscord::Message message) {
 		//Define vars
 		std::string numDiceStr;
@@ -238,6 +223,7 @@ public:
 		std::cout << output << std::endl;
 		sendMessage(message.channelID, output);
 	}
+
 	void calculate(SleepyDiscord::Message message) {
 		std::string input = message.content.substr(6);
 		std::string op = "";
@@ -262,6 +248,7 @@ public:
 
 		sendMessage(message.channelID, std::to_string(result));
 	}
+
 	void dm(SleepyDiscord::Message message, std::string content) {
 		SleepyDiscord::DMChannel DMChan;
 		DMChan = createDirectMessageChannel(message.author.ID.string());
@@ -272,24 +259,14 @@ public:
 };
 
 int main() {
-
-	//SOMETHING HERE ERRORS WHEN RECIEVING A BAD XML FILE, MUST FIX EVENTUALLY
 	std::string results;
 	std::string defStr;
 	tinyxml2::XMLDocument doc;
 	doc.LoadFile("keys.xml");
-
 	tinyxml2::XMLElement* disKeyElement = doc.FirstChildElement()->FirstChildElement("disKey");
 	const char* tokenConst = disKeyElement->GetText();
 	tinyxml2::XMLElement* mwKeyElement = doc.FirstChildElement()->FirstChildElement("mwKey");
 	mwKey = mwKeyElement->GetText();
-
-	//std::string token;
-	std::cout << "Please input Discord token:" << std::endl;
-	//std::cin >> token;
-	std::cout << "\nPlease input MW API Key:" << std::endl;
-	//std::cin >> mwKey;
-	//std::cout << "test";
 	MyClientClass client(tokenConst, 2);
 	client.run();
 }
