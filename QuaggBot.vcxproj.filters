@@ -13,4 +13,17 @@
       <UniqueIdentifier>{55557A67-DC99-3F92-B390-22E10FD6DEE9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="keys_TEMPLATE.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

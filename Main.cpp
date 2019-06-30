@@ -79,7 +79,8 @@ public:
 						echo(message);
 					}
 					else if (command == "define") {
-						loadXML(message);
+						//loadXML(message);
+						sendMessage(message.channelID, "Sorry, this command is disabled because of bugs causing crashes, and will be re-enabled upon fix.");
 					}
 					else if (command == "roll") {
 						rollDice(message);
@@ -99,7 +100,7 @@ public:
 	}
 
 	void help(SleepyDiscord::Message message) {
-		std::string helpMessage = "Full documentation can be found at [NOT YET IMPLEMENTED]\\n\\n***Commands:***\\n*All commands prefixed with <>*\\n\\nhelp: Displays this message\\n\\nping: pong\\n\\noof: ouch owie my bones\\n\\nhi: Says Hello\\n\\ndefine[word]: Defines whatever word you replace the brackets with.For example, <>define help returns the definition for help (Warning, please be careful for spelling, as the bot cannot currently handle misspelled words and will crash.Abusing this will earn a warning or a ban)\\n\\nroll: Rolls specified dice.For Example, <>roll 1d4 rolls 1 4 sided dice\\n\\ncalc: Simple calculator. Adds, subtracts, multiplies, or divides two numbers. <>calc 2*4 returns 8";
+		std::string helpMessage = "Full documentation can be found at https://github.com/QuaggWasTaken/QuaggBotCpp \\n\\n***Commands:***\\n*All commands prefixed with <>*\\n\\nhelp: Displays this message\\n\\nping: pong\\n\\noof: ouch owie my bones\\n\\nhi: Says Hello\\n\\ndefine[word]: Defines whatever word you replace the brackets with.For example, <>define help returns the definition for help (This is currently disabled, as there were too many bugs and glitches causing crashes)\\n\\nroll: Rolls specified dice.For Example, <>roll 1d4 rolls 1 4 sided dice\\n\\ncalc: Simple calculator. Adds, subtracts, multiplies, or divides two numbers. <>calc 2*4 returns 8";
 		dm(message, helpMessage);
 		sendMessage(message.channelID, "Help message sent to DM!");
 	}
@@ -132,16 +133,13 @@ public:
 		std::string defStr;
 		tinyxml2::XMLDocument doc;
 		doc.LoadFile("results.xml");
-		if (doc.FirstChildElement()->FirstChildElement()->FirstChildElement("def")) {
-			tinyxml2::XMLElement* defElement = doc.FirstChildElement()->FirstChildElement()->FirstChildElement("def")->FirstChildElement("dt");
-			const char* def = defElement->GetText();
-			defStr = def;
-			results = defStr.substr((defStr.find(":")) + 1, (defStr.find(":", (defStr.find(":")) + 1)) - 2);
-			sendMessage(message.channelID, results);
-		}
-		else {
-			sendMessage(message.channelID, "Error");
-		}
+
+		tinyxml2::XMLElement* defElement = doc.FirstChildElement()->FirstChildElement()->FirstChildElement("def")->FirstChildElement("dt");
+		const char* def = defElement->GetText();
+		defStr = def;
+		results = defStr.substr((defStr.find(":")) + 1, (defStr.find(":", (defStr.find(":")) + 1)) - 2);
+		sendMessage(message.channelID, results);
+
 	}
 
 	void loadXML(SleepyDiscord::Message message) {
@@ -228,7 +226,7 @@ public:
 			int currRoll = (rand() % diceSize) + 1;
 			rollTotal += currRoll;
 			std::cout << rollTotal << std::endl;
-			
+
 			if (i == 0) {
 				output += std::to_string(currRoll);
 			}
@@ -243,7 +241,7 @@ public:
 	void calculate(SleepyDiscord::Message message) {
 		std::string input = message.content.substr(6);
 		std::string op = "";
-		std::string::size_type sz;     // alias of size_t
+		std::string::size_type sz;
 
 		double num1 = std::stod(input, &sz);
 		double num2 = std::stod(input.substr(sz + 1));
@@ -274,12 +272,24 @@ public:
 };
 
 int main() {
-	std::string token;
+
+	//SOMETHING HERE ERRORS WHEN RECIEVING A BAD XML FILE, MUST FIX EVENTUALLY
+	std::string results;
+	std::string defStr;
+	tinyxml2::XMLDocument doc;
+	doc.LoadFile("keys.xml");
+
+	tinyxml2::XMLElement* disKeyElement = doc.FirstChildElement()->FirstChildElement("disKey");
+	const char* tokenConst = disKeyElement->GetText();
+	tinyxml2::XMLElement* mwKeyElement = doc.FirstChildElement()->FirstChildElement("mwKey");
+	mwKey = mwKeyElement->GetText();
+
+	//std::string token;
 	std::cout << "Please input Discord token:" << std::endl;
-	std::cin >> token;
+	//std::cin >> token;
 	std::cout << "\nPlease input MW API Key:" << std::endl;
-	std::cin >> mwKey;
+	//std::cin >> mwKey;
 	//std::cout << "test";
-	MyClientClass client(token, 2);
+	MyClientClass client(tokenConst, 2);
 	client.run();
 }
