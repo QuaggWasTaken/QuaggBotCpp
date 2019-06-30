@@ -17,6 +17,9 @@
     <Xml Include="keys_TEMPLATE.xml">
       <Filter>Source Files</Filter>
     </Xml>
+    <Xml Include="keys.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore">

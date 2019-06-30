@@ -279,6 +279,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Xml Include="keys.xml" />
     <Xml Include="keys_TEMPLATE.xml" />
   </ItemGroup>
   <ItemGroup>
