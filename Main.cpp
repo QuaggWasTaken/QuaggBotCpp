@@ -31,14 +31,13 @@ void rollDice(SleepyDiscord::Message);
 void calculate(SleepyDiscord::Message);
 void dm(SleepyDiscord::Message);
 std::string mwKey;
-std::string problemWords = "test, fat";
 
 class MyClientClass : public SleepyDiscord::DiscordClient {
 public:
 	using SleepyDiscord::DiscordClient::DiscordClient;
 
 	void onMessage(SleepyDiscord::Message message) override {
-		if (message.author.username != "QuaggBot") {
+		if (message.author.ID != "562963909456429056") {
 			if (message.attachments.empty()) {
 				std::string command = getCommand(message);
 				if (message.startsWith("<>")) {
@@ -186,7 +185,6 @@ public:
 		std::string output = "";
 		//Parse input for vars
 		input = message.content.substr(7);
-		//std::cout << input;
 		numDiceStr = input.substr(0, input.find("d"));
 		diceSizeStr = input.substr(input.find("d") + 1);
 		{						//Assigns numDice, can error and exit loop
